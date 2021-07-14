@@ -1,0 +1,46 @@
+body {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,34,121,0.938813025210084) 19%, rgba(0,212,255,1) 100%);
+	background-size: cover;
+	background-position: center;
+}
+
+.heading {
+	width: 100%;
+	cursor: default;
+}
+
+.login_div {
+	border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 3px 3px 3px whitesmoke;
+    padding: 15px;
+    float: none;
+}
+
+.form-control {
+	border-radius: 10px;
+}
+
+#phone {
+	width: 50%;
+}
+
+.sign_in {
+	width: 60%;
+	border-radius: 30px;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 26%, rgba(45,33,255,1) 100%, rgba(2,0,36,1) 100%, rgba(46,9,121,0.938813025210084) 100%);
+}
+
+.notice_div {
+	border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 3px 3px 3px whitesmoke;
+    padding: 15px;
+    float: none;
+}
+
+#mail {
+	cursor: pointer;
+}

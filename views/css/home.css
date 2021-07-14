@@ -1,0 +1,34 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 34, 121, 0.938813025210084) 19%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+.note {
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 3px 3px 3px whitesmoke;
+    padding: 15px;
+    float: none;
+}
+
+.random_img {
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#phone {
+    margin-top: -20px;
+}
+
+.logout {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(219, 219, 219);
+}
+
+.logout:hover {
+    background-color: rgb(219, 219, 219);
+}
