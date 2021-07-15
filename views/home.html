@@ -12,8 +12,30 @@
 </head>
 
 <body>
-    <center style="padding: 15px;">
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 note">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Funtalk</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#feed">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <center style="padding: 10px;">
+        <!-- <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 note">
             <h3 id="name" class="text-primary"></h3>
             <h4 class="text-success">
                 Successfully Registered <img src="../img/heart.png" alt="">
@@ -28,10 +50,47 @@
             <div class="btn">
                 <span class="text-danger logout" onclick="logout()">Logout</span>
             </div>
+        </div> -->
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 mt-3 page" id="gop">
+            <div class="form-group">
+                <h3 class="text-primary"><b>Create Meeting</b></h3>
+                <hr>
+                <label class="text-muted">Let's know your name</label><br>
+                <input type="text" id="name" placeholder="Enter your name">
+                <p class="text-success" id="use"></p>
+                <br>
+                <div id="create_btn" onclick="create()" class="btn btn-default create">Create</div>
+                <div class="text-muted mt-3">
+                    <span>After you create your meeting, your informations are stored in our <b>database</b>. </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="features" id="gop1">
+            <h3 class="text-success">Successfully created</h3>
+            <img class="random_img" src="https://source.unsplash.com/random" alt="">
+            <p style="cursor: pointer;" onclick="go()" class="text-primary" onclick="chat()">https://www.funtalkprovido.comm/meet/<span id="user"></span></p>
+            <p class="text-muted">
+                <i class="fa fa-envelope-o">&nbsp;</i> gyanam@provido.com
+            </p>
+        </div>
+
+        <br><br>
+
+        <div class=" col-lg-4 col-md-6 col-sm-6 col-xs-11 mt-3 features " id="feed">
+            <div class="form-group ">
+                <label class="text-success "><i class="fa fa-star-o "></i> Features</label>
+                <ol class="text-muted ml-25 " style="text-align: left; ">
+                    <li>Free calling services</li>
+                    <li>Live support</li>
+                    <li>Creating group chats</li>
+                    <li>Online games</li>
+                </ol>
+            </div>
         </div>
     </center>
 
-    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript " src="js/home.js "></script>
 </body>
 
 </html>
